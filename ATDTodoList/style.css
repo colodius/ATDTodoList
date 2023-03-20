@@ -1,0 +1,17 @@
+h2 {
+    color: blue;
+}
+
+.mark-complete {
+    scale: 2;
+}
+
+.delete {
+    padding: 0 5px;
+    margin: 3px 0;
+}
+
+.filter {
+    scale: 1.5;
+    margin: 20px;
+}

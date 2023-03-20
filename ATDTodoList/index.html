@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ATD To-do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="pb-2">To Do List</h2>
+                <div id="filter block">
+                  <span>Filter tasks by: </span>
+                  <span class="pl-3">Active tasks </span><input type="checkbox" class="filter" id="fil-active" checked>
+                  <span>Completed tasks </span><input type="checkbox" class="filter" id="fil-complete" checked>
+                </div>
+                <div id='todo-list'>          
+                </div>
+                
+                <form id="create-task" class="pt-3">
+                  <input id="new-task-content" type="text" placeholder="new task" required/>
+                  <button>Create</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
